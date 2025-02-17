@@ -284,6 +284,24 @@ section {
   text-align: center;
   font-weight: bold;
 }
+.friends {
+  margin-top:200px;
+  font-size: 1.8rem;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.links img {
+  padding: 8px;
+  width: 80px;
+  height: 80px; /* Keeps the aspect ratio intact */
+  margin-bottom: -10px; /* Optional: adds spacing between images */
+  transition: transform 0.3s ease;
+}
+
+.links a img:hover {
+  transform: scale(1.2);
+}
 
 /* Footer */
 footer {
